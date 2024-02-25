@@ -38,8 +38,8 @@ const info = {
 			title: "Portfolio",
 			description: "Created a Personal Portfolio website using HTML, CSS, and JavaScript, with enhanced interactivity using ReactJS.",
 			technologies: "https://skillicons.dev/icons?i=react,tailwindcss,0,0&perline=5&theme=",
-			github: "https://github.com/deepak9010/portfolio",
-            link: "https://portfolio-singhdeepak.vercel.app/"
+			github: "https://github.com/deepak9010/latest_portfolio",
+            link: "https://latest-portfolio-theta.vercel.app/"
 		},
 
 		{
