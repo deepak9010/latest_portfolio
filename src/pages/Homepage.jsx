@@ -40,7 +40,7 @@ function Homepage() {
                                 <div className="flex gap-2 mt-6">
                                     <a href="#projects" className="px-6 py-3 border rounded-xl border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300">Projects</a>
                                     <a href="#skills" className="px-6 py-3 border rounded-xl border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300">Skills</a>
-                                    <a href="#skills" className="px-6 py-3 border rounded-xl border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300">Resume</a>
+                                    <a href={user_info.main.resume} target="_blank"  className="px-6 py-3 border rounded-xl border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300">Resume</a>
                                     <a href="#contact" className="px-6 py-3 hover:text-blue-600 transition-all duration-300 flex gap-3 hover:gap-4">
                                         <span className="self-center">Contact</span>
                                         <IoIosArrowForward className="self-center" />
@@ -162,15 +162,15 @@ function Homepage() {
                 
                     <div className="mt-12">
                        
-                        <a href={user_info.socials.twitter} className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
+                        <a href={user_info.socials.twitter} target="_blank" className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
                             <FaSquareXTwitter className="self-center text-lg" />
                             <span className="self-center">Follow on Twitter</span>
                         </a>
-                        <a href={user_info.socials.instagram} className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
+                        <a href={user_info.socials.instagram} target="_blank" className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
                             <FaInstagram className="self-center text-lg" />
                             <span className="self-center">Follow on Instagram</span>
                         </a>
-                        <a href={user_info.socials.linkedin} className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
+                        <a href={user_info.socials.linkedin} target="_blank" className="flex gap-4 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300 mt-4">
                             <FaLinkedin className="self-center text-lg" />
                             <span className="self-center">Follow on Linkedin</span>
                         </a>
@@ -178,12 +178,12 @@ function Homepage() {
 
                     <hr className="mt-6 w-72 border dark:border-gray-800" />
 
-                    <a href={`mailto:${user_info.main.email}`} className="flex mt-6 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 gap-4 hover:text-gray-700 transition-all duration-30">
+                    <a href={`mailto:${user_info.main.email}`} target="_blank" className="flex mt-6 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 gap-4 hover:text-gray-700 transition-all duration-30">
                         <MdEmail className="self-center text-lg" />
                         <span>{ user_info.main.email }</span>
                     </a>
 
-                    <a href={user_info.socials.telegram} className="flex mt-6 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 gap-4 hover:text-gray-700 transition-all duration-30">
+                    <a href={user_info.socials.telegram} target="_blank" className="flex mt-6 text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 gap-4 hover:text-gray-700 transition-all duration-30">
                         <FaTelegramPlane   className="self-center text-lg" />
                         <span>Message on Telegram</span>
                     </a>
