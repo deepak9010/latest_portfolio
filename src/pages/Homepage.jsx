@@ -37,7 +37,7 @@ function Homepage() {
                                 
                                 <p className="mt-6 dark:text-gray-300 text-base font-light lg:w-[87%] leading-7">{user_info.main.description}</p>
 
-                                <div className="flex gap-2 mt-6">
+                                <div className="flex gap-2 mt-6 flex-wrap md:flex-nowrap">
                                     <a href="#projects" className="px-6 py-3 border rounded-xl border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300">Projects</a>
                                     <a href="#skills" className="px-6 py-3 border rounded-xl border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300">Skills</a>
                                     <a href={user_info.main.resume} target="_blank"  className="px-6 py-3 border rounded-xl border-gray-900 dark:border-gray-100 hover:bg-blue-600 transition-all hover:text-gray-100 duration-300">Resume</a>
@@ -46,7 +46,7 @@ function Homepage() {
                                         <IoIosArrowForward className="self-center" />
                                     </a>
                                 </div>
-
+              
                                <div className="flex mt-8 gap-6">
                                     <a href={user_info.socials.instagram}  rel="noreferrer" target="_blank" className="text-gray-500  dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300"><FaInstagram  className="inline-block text-4xl "/></a>
                                     <a href={user_info.socials.twitter} rel="noreferrer" target="_blank" className="text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300"><FaSquareXTwitter className="inline-block text-4xl " /></a>
