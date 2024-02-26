@@ -6,7 +6,7 @@ const info = {
         role2: "MERN Developer",
         photo: "../photo2.jpeg",
         email: "deepak23072019@gmail.com",
-        resume:"https://drive.google.com/file/d/1ZMiPIc-3kLsNJ6-7bSDXuvB-cWjXhFxI/view"
+        resume:"https://drive.google.com/file/d/1IMt_njkJIL4HbEZB5_asL8IcjsTqWiLe/view"
     },
 
     socials: {
