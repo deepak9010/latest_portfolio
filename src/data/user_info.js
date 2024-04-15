@@ -84,19 +84,20 @@ const info = {
 
     experience: [
         {
+            company: "Appic Software Development LLP",
+            domain: "MERN Developer Intern",
+            duration: "Feb 2024 - April 202",
+            image: "companylogo.png",
+            description: "-> Collaborated with the development team to create and maintain responsive, user-friendly web applications using ReactJS and Material UI. Contributed to the design and development of ADMIN PANEL for the JOBI website. JOBI serves as a pivotal hub for both job seekers and employers, offering a streamlined interface for job search, candidate recruitment"
+        },
+        {
             company: "2DS App and Game Development Hub Pvt Limited",
             domain: "Web Developer Intern",
             duration: "May 2023 - June 2023",
             image: "companylogo.png",
             description: "->Actively participated in web development projects, collaborating with a diverse team to enhance userexperiences and functionalities. Utilized HTML, CSS, JavaScript and ReactJS to create responsive and visually appealing web interfaces."
         },
-        {
-            company: "Bit-To-Byte Robotics",
-            domain: "Frontend Developer Intern",
-            duration: "May 2022 - June 2022",
-            image: "companylogo.png",
-            description: "->Collaborated with the development team to create and maintain responsive, user-friendly web applications using HTML, CSS, and JavaScript"
-        },
+      
     
     ],
 
