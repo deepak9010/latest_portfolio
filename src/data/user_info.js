@@ -1,12 +1,12 @@
 const info = {
     main: {
         name: "Deepak Singh",
-        description: "I am a final year B.Tech undergrad and a programmer. A passionate and dedicated developer. I am a software engineer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies like ReactJS, Material UI, NodeJS, ExpressJS. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
-        role: "Software Engineer",
+        description: "I am a B.Tech graduated and a programmer. A passionate and dedicated developer. I am a software developer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies like ReactJS, Material UI, NodeJS, ExpressJS. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
+        role: "Software Developer",
         role2: "MERN Developer",
         photo: "../photo2.jpeg",
         email: "deepak23072019@gmail.com",
-        resume:"https://drive.google.com/file/d/1IMt_njkJIL4HbEZB5_asL8IcjsTqWiLe/view"
+        resume:"https://drive.google.com/file/d/1LzkDXssKclKO5P0g-2uWd6Lb2qLFuVvl/view?usp=sharing"
     },
 
     socials: {
@@ -71,7 +71,7 @@ const info = {
         {
             school: "Rajasthan Technical University, Kota",
             degree: "B.Tech in Computer Science",
-            year: "2020 - Present",
+            year: "2020 - 2024",
             image: "rtu.jpeg"
         },
         {
@@ -84,11 +84,18 @@ const info = {
 
     experience: [
         {
+            company: "W3Villa Technologies Pvt Ltd",
+            domain: "Software Developer Intern",
+            duration: "MAy 2024 - Present",
+            image: "companylogo.png",
+            description: "->  Gained hands-on experience working on diverse projects, applying different technologies and frameworks. Developed a real-time attendance system using Python and FastAPI for backend, Flask for frontend, and MongoDB for data storage, capturing live CCTV feeds for facial recognition. Actively working on a VueJS-based project, enhancing front-end development skills by building dynamic and interactive web applications."
+        },
+        {
             company: "Appic Software Development LLP",
             domain: "MERN Developer Intern",
-            duration: "Feb 2024 - April 202",
+            duration: "Feb 2024 - April 2024",
             image: "companylogo.png",
-            description: "-> Collaborated with the development team to create and maintain responsive, user-friendly web applications using ReactJS and Material UI. Contributed to the design and development of ADMIN PANEL for the JOBI website. JOBI serves as a pivotal hub for both job seekers and employers, offering a streamlined interface for job search, candidate recruitment"
+            description: "-> Contributed to the design and development of ADMIN PANEL for the JOBI website using ReactJS and Material UI. JOBI serves as a pivotal hub for both job seekers and employers, offering a streamlined interface for job search, candidate recruitment"
         },
         {
             company: "2DS App and Game Development Hub Pvt Limited",

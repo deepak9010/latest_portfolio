@@ -48,8 +48,6 @@ function Homepage() {
                                 </div>
               
                                <div className="flex mt-8 gap-6">
-                                    <a href={user_info.socials.instagram}  rel="noreferrer" target="_blank" className="text-gray-500  dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300"><FaInstagram  className="inline-block text-4xl "/></a>
-                                    <a href={user_info.socials.twitter} rel="noreferrer" target="_blank" className="text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300"><FaSquareXTwitter className="inline-block text-4xl " /></a>
                                     <a href={user_info.socials.linkedin} rel="noreferrer" target="_blank" className="text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300"><FaLinkedin className="inline-block text-4xl" /></a>
                                     <a href={user_info.socials.github} rel="noreferrer" target="_blank" className="text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300"><FaGithub className="inline-block text-4xl" /></a>
                                     <a href={`mailto:${user_info.main.email}`} rel="noreferrer" target="_blank" className="text-gray-500 dark:text-gray-300 hover:dark:text-gray-300 hover:text-gray-700 transition-all duration-300"><MdEmail className="inline-block text-4xl" /></a>                     
