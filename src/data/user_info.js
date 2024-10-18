@@ -26,6 +26,7 @@ const info = {
 			description: " Developed a educational web application using Next.js and Bootstrap for the frontend, and implemented a secure backend using Node.js, Express.js, and JWT for authentication and integrate MySQL for efficient data storage and retrieval",
             technologies: "NextJS, NodeJS, ExpressJS, MySQL, Sequelize",
 			github: "https://github.com/deepak9010/FutureWise",
+            videoLink: "https://drive.google.com/file/d/1LG_oATa0_s44HPTnQWGtXM-0iNLuLbii/preview?usp=sharing",
             // link: "https://crud-mernapp-my77.vercel.app/all"
 		},
         {
@@ -33,7 +34,8 @@ const info = {
 			description: "Design and developed a full-stack web application using the MERN stack to facilitate Create, Read,Update and Delete operations on data.",
             technologies: "React, NodeJS, ExpressJS, MongoDB",
 			github: "https://github.com/deepak9010/CRUD-mernapp",
-            link: "https://crud-mernapp-my77.vercel.app/all"
+            link: "https://crud-mernapp-my77.vercel.app/all",
+            videoLink: "https://drive.google.com/file/d/1VoFDABhwCVPU5J7V2i-Yh2NCWFTHM-et/preview?usp=sharing",
 		},
 
 		{
@@ -41,23 +43,24 @@ const info = {
 			description: "A web App designed to track the prices and performance of various cryptocurrencies and exchanges in real time using crypto APIs.",
             technologies: "React",
 			github: "https://github.com/deepak9010/CryptoBhaiyaa",
-            link: "https://crypto-bhaiya.vercel.app/"
+            link: "https://crypto-bhaiya.vercel.app/",
+            videoLink: "https://drive.google.com/file/d/1OMdPzEzymuhV5b-RbP4VGEFq_9lNQajP/preview?usp=sharing",
 		},
-
-		{
-			title: "Portfolio",
-			description: "Created a Personal Portfolio website using HTML, CSS, and JavaScript, with enhanced interactivity using ReactJS.",
-            technologies: "React, Tailwind",
-			github: "https://github.com/deepak9010/latest_portfolio",
-            link: "https://latest-portfolio-theta.vercel.app/"
-		},
-
+		// {
+		// 	title: "Portfolio",
+		// 	description: "Created a Personal Portfolio website using HTML, CSS, and JavaScript, with enhanced interactivity using ReactJS.",
+        //     technologies: "React, Tailwind",
+		// 	github: "https://github.com/deepak9010/latest_portfolio",
+        //     link: "https://latest-portfolio-theta.vercel.app/",
+        //     // videoLink: "https://drive.google.com/file/d/1LG_oATa0_s44HPTnQWGtXM-0iNLuLbii/view?usp=sharing",
+		// },
 		{
 			title: "Weather App",
 			description: "Developed a user-friendly weather application using HTML, CSS, and JavaScript. Utilized external APIs to fetch real-time weather data for user-specified locations.",
             technologies: "HTML, CSS, JavaScript",
 			github: "https://github.com/deepak9010/weatherApp",
-            link: "https://deepak9010.github.io/weatherApp/"
+            link: "https://deepak9010.github.io/weatherApp/",
+            videoLink: "https://drive.google.com/file/d/1o0CnGbpZ2DwB6UsrcHvFBQ1e0d7rWp1c/preview?usp=sharing",
 		},
     ],
 
