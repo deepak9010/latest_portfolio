@@ -14,15 +14,23 @@ const info = {
 		github: "https://github.com/deepak9010",
 		linkedin: "https://www.linkedin.com/in/deepak-singh-8a49a5216/",
 		instagram: "https://www.instagram.com/deepaksingh123000/",
+        leetcode: "https://leetcode.com/deepaksingh_1/",
         telegram: "https://t.me/deepakSingh_telegram"
     },
     
     
     projects: [
         {
+			title: "FutureWise",
+			description: " Developed a educational web application using Next.js and Bootstrap for the frontend, and implemented a secure backend using Node.js, Express.js, and JWT for authentication and integrate MySQL for efficient data storage and retrieval",
+            technologies: "NextJS, NodeJS, ExpressJS, MySQL, Sequelize",
+			github: "https://github.com/deepak9010/FutureWise",
+            // link: "https://crud-mernapp-my77.vercel.app/all"
+		},
+        {
 			title: "Crud App",
 			description: "Design and developed a full-stack web application using the MERN stack to facilitate Create, Read,Update and Delete operations on data.",
-			technologies: "https://skillicons.dev/icons?i=react,nodejs,express,mongodb,0,0&perline=6&theme=",
+            technologies: "React, NodeJS, ExpressJS, MongoDB",
 			github: "https://github.com/deepak9010/CRUD-mernapp",
             link: "https://crud-mernapp-my77.vercel.app/all"
 		},
@@ -30,7 +38,7 @@ const info = {
 		{
 			title: "CryptoBhaiya",
 			description: "A web App designed to track the prices and performance of various cryptocurrencies and exchanges in real time using crypto APIs.",
-			technologies: "https://skillicons.dev/icons?i=react,css,0,0&perline=5&theme=",
+            technologies: "React",
 			github: "https://github.com/deepak9010/CryptoBhaiyaa",
             link: "https://crypto-bhaiya.vercel.app/"
 		},
@@ -38,7 +46,7 @@ const info = {
 		{
 			title: "Portfolio",
 			description: "Created a Personal Portfolio website using HTML, CSS, and JavaScript, with enhanced interactivity using ReactJS.",
-			technologies: "https://skillicons.dev/icons?i=react,tailwindcss,0,0&perline=5&theme=",
+            technologies: "React, Tailwind",
 			github: "https://github.com/deepak9010/latest_portfolio",
             link: "https://latest-portfolio-theta.vercel.app/"
 		},
@@ -46,7 +54,7 @@ const info = {
 		{
 			title: "Weather App",
 			description: "Developed a user-friendly weather application using HTML, CSS, and JavaScript. Utilized external APIs to fetch real-time weather data for user-specified locations.",
-			technologies: "https://skillicons.dev/icons?i=html,css,javascript,0,0&perline=5&theme=",
+            technologies: "HTML, CSS, JavaScript",
 			github: "https://github.com/deepak9010/weatherApp",
             link: "https://deepak9010.github.io/weatherApp/"
 		},
@@ -88,21 +96,34 @@ const info = {
             domain: "Software Developer Intern",
             duration: "MAy 2024 - Present",
             image: "companylogo.png",
-            description: "->  Gained hands-on experience working on diverse projects, applying different technologies and frameworks. Developed a real-time attendance system using Python and FastAPI for backend, Flask for frontend, and MongoDB for data storage, capturing live CCTV feeds for facial recognition. Actively working on a VueJS-based project, enhancing front-end development skills by building dynamic and interactive web applications."
+            // description: "->  Gained hands-on experience working on diverse projects, applying different technologies and frameworks. Developed a real-time attendance system using Python and FastAPI for backend, Flask for frontend, and MongoDB for data storage, capturing live CCTV feeds for facial recognition. Actively working on a VueJS-based project, enhancing front-end development skills by building dynamic and interactive web applications."
+            descriptions: [
+                "Gained hands-on experience working on diverse projects, applying different technologies and frameworks.",
+                "Developed a real-time attendance system using Python and FastAPI for backend, Flask for frontend, and MongoDB for data storage, capturing live CCTV feeds for facial recognition.",
+                "Actively working on a VueJS-based project, enhancing front-end development skills by building dynamic and interactive web applications.",
+            ]
         },
         {
             company: "Appic Software Development LLP",
             domain: "MERN Developer Intern",
             duration: "Feb 2024 - April 2024",
             image: "companylogo.png",
-            description: "-> Contributed to the design and development of ADMIN PANEL for the JOBI website using ReactJS and Material UI. JOBI serves as a pivotal hub for both job seekers and employers, offering a streamlined interface for job search, candidate recruitment"
+            // description: "-> Contributed to the design and development of ADMIN PANEL for the JOBI website using ReactJS and Material UI. JOBI serves as a pivotal hub for both job seekers and employers, offering a streamlined interface for job search, candidate recruitment"
+            descriptions: [
+                "Contributed to the design and development of ADMIN PANEL for the JOBI website using ReactJS and Material UI.",
+                "JOBI serves as a pivotal hub for both job seekers and employers, offering a streamlined interface for job search, candidate recruitment."
+            ]
         },
         {
             company: "2DS App and Game Development Hub Pvt Limited",
             domain: "Web Developer Intern",
             duration: "May 2023 - June 2023",
             image: "companylogo.png",
-            description: "->Actively participated in web development projects, collaborating with a diverse team to enhance userexperiences and functionalities. Utilized HTML, CSS, JavaScript and ReactJS to create responsive and visually appealing web interfaces."
+            // description: "->Actively participated in web development projects, collaborating with a diverse team to enhance userexperiences and functionalities. Utilized HTML, CSS, JavaScript and ReactJS to create responsive and visually appealing web interfaces."
+            descriptions: [
+                "Utilized HTML, CSS, JavaScript and ReactJS to create responsive and visually appealing web interfaces..",
+                "Actively participated in web development projects, collaborating with a diverse team to enhance userexperiences and functionalities."
+            ]
         },
       
     
