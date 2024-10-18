@@ -3,7 +3,8 @@ const info = {
         name: "Deepak Singh",
         description: "I am a B.Tech graduated and a programmer. A passionate and dedicated developer. I am a software developer with expertise in full-stack web development. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies like ReactJS, Material UI, NodeJS, ExpressJS. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards.",
         role: "Software Developer",
-        role2: "MERN Developer",
+        role2: "FullStack Developer",
+        role3: "MERN Developer",
         photo: "../photo2.jpeg",
         email: "deepak23072019@gmail.com",
         resume:"https://drive.google.com/file/d/1LzkDXssKclKO5P0g-2uWd6Lb2qLFuVvl/view?usp=sharing"

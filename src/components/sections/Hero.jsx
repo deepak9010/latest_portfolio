@@ -26,6 +26,7 @@ function Hero() {
           <div className="lg:w-[80%] text-zinc-900 dark:text-zinc-100 self-center">
             <h2 className="text-xl">{user_info.main.role}</h2>
             <h2 className="text-xl">{user_info.main.role2}</h2>
+            <h2 className="text-xl">{user_info.main.role3}</h2>
             <h1 className="font-black mt-3 text-5xl lg:w-[85%]">
               {user_info.main.name}
             </h1>
